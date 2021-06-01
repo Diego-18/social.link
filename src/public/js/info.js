@@ -15,7 +15,7 @@ new Vue ({
         social: [
             {
                 name: 'Sitio Web',
-                link: 'https://www.dev.diegochavez-dc.com/', 
+                link: 'https://www.diegochavez-dc.com/', 
                 description: 'Accede a mi sitio web.',
                 icon: 'fa fa-globe', 
                 color: 'background:#007BB5;',
