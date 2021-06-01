@@ -98,6 +98,10 @@ a{
     padding-top: 2%;
 }
 
+.link__description{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 @keyframes glowAsnimation {
     0%,100%{
         box-shadow: 0px 0px 20px #fff;
