@@ -149,9 +149,7 @@ a{
 
     .link__description {
         display: none;
-    }
-
-    
+    } 
 }
 
 @media screen and (max-width:1200px){
