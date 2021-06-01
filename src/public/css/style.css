@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Kalam:wght@700&family=Lobster&family=Permanent+Marker&display=swap');
+
+html{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    font-family: 'Kalam', cursive;
+    font-size: 14px;
+}
+
+.img__profile{
+    background-position: center center;
+    background-repeat: no-repeat;
+    z-index: 1;
+    border-radius: 50%;
+    width: 25vh;
+    height: 25vh;
+    display:block;
+    margin:auto;
+
+}
+
+.content__title{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 0px;
+    font-size: 16px;
+}
+
+.container__link{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding: 0px;
+}
+
+.link__item{
+    display: inline-flex;
+    width: 45%;
+    margin-left: 3%;
+    text-align: center;
+}
+
+#link__icon, .link__title{
+    padding: 0.5rem;
+    height: 5vh;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+#link__icon{
+    float: left;
+    margin-left: 15%;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.link__title{
+    width: 40%;
+    border-radius: 0px 6px 6px 0px;
+}
+
+a{
+    text-decoration: none;
+    font-weight: 300;
+    margin-bottom: 2%;
+}
+
+.link__name{
+    margin-bottom: 1%;
+}
+
+.img__profile{
+    animation: infinite glowAsnimation 2s;
+}
+
+.container__footer{
+    bottom: 0;
+    width: 100%;   
+    text-align: center;
+}
+
+.img__logo{
+    width: 15%;
+    bottom: 0;
+}
+
+.content__profession{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.link__description {
+    font-size: 10px;
+    width: 90%;
+    padding-left: 2%;
+    text-align: left;
+    z-index: 0;
+    padding-top: 2%;
+}
+
+
+
+@keyframes glowAsnimation {
+    0%,100%{
+        box-shadow: 0px 0px 20px #fff;
+    }
+    50%{
+        box-shadow: 0px 0px 0px; 
+    }
+}
+
+@media screen and (max-width:991px) {
+    .content__title {
+        font-size: 1.5rem;
+    }
+
+    .content__profession{
+        font-size: 1rem;
+    }
+
+    .link__item {
+        display: flex;
+        width: 100%;
+    }
+
+    #link__icon {
+        width: 10%;
+    }
+
+    .link__title {
+        width: 50%;
+    }
+
+    .link__name{
+        font-size: 1.5rem;
+    }
+
+    .img__logo {
+        width: 50%;
+    }
+
+    .link__description {
+        display: none;
+    }
+}

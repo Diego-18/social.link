@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>.: Diego | Chavez :.</title>
+
+        <link rel="shortcut icon" type="image/x-icon" href="src/public/img/favicon.ico">
+        <link rel="stylesheet" href="src/public/css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+        <link rel="stylesheet" href="src/public/css/sty_dark.css">
+    </head>
+    <body>
+        <div id="app">
+            <img :src="info.photo" alt="photo" class="img__profile">
+            <div class="content__title">
+                <p class=" content__info"> {{info.name}} {{info.separator}} <span class="last__name">{{info.last_name}}</span></p>
+                <span class="content__profession"> {{info.profession}}</span>
+            </div>
+            
+            <div class='container__link'>
+                <div class="link__item" v-for="link in social">
+                    <span id="link__icon" :class="link.icon" :style="link.color"></span>
+                    <a :href="link.link" target="_blank" class="link__title" v-on:mouseover="link.show_description = true" v-on:mouseleave="link.show_description = false">
+                        <span class="link__name">{{link.name}}</span>
+                    </a>
+                    <p class="link__description" v-show="link.show_description"> {{link.description}}</p>
+                </div>
+            </div>
+    
+            <div class="container__footer">
+                <img :src="info.logo" alt="logo" class="img__logo">
+            </div>
+        </div>
+    </body>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
+    <script src="src/public/js/info.js"></script>
+    <script src="https://kit.fontawesome.com/74a0a4aba0.js"></script>
+</html>

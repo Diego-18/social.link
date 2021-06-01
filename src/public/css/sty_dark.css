@@ -1,0 +1,37 @@
+body{
+    background: #1f3438;
+    color: #fff;
+}
+
+.img__profile{
+    background-color: #fff;
+    border: solid 5px #007BB5;
+}
+
+#link__icon, .link__title,
+.img__profile{
+    box-shadow: 3px 2px 3px #fff;
+}
+
+.link__title:hover,
+.link__title:hover .link__name{
+    color: #fff;
+    background: #007BB5;
+}
+
+#link__icon{
+    background: #007BB5;
+}
+
+#link__icon, .link__title{
+    box-shadow: 2px 1px 2px #fff;
+}
+
+.link__title{
+    background: #fff;
+}
+
+.link__title a, .last__name,
+.link__name{
+    color: #007BB5;
+}
