@@ -9,7 +9,9 @@ new Vue ({
             separator: '|',
             company_name: '',
             photo: 'src/public/img/profile.jpeg',
-            profession: '💻 Ingeniero en Informática | 💻 Desarrollador Web Fullstack | 💼 Analista Digital',
+            profession: `💻 Ingeniero en Informática |
+                         💻 Desarrollador Web Fullstack | 
+                         💼 Analista Digital`,
             logo: 'src/public/img/logo.svg'
         },
         social: [
