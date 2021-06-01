@@ -73,10 +73,6 @@ a{
     margin-bottom: 1%;
 }
 
-.img__profile{
-    animation: infinite glowAsnimation 2s;
-}
-
 .container__footer{
     bottom: 0;
     width: 100%;   
@@ -102,7 +98,9 @@ a{
     padding-top: 2%;
 }
 
-
+.link__description{
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 @keyframes glowAsnimation {
     0%,100%{
@@ -145,5 +143,19 @@ a{
 
     .link__description {
         display: none;
+    }
+
+    .img__profile{
+        animation: infinite glowAsnimation 2s;
+    }
+}
+
+@media screen and (max-width:1200px){
+    .link__title {
+        width: 50%;
+    }
+
+    .img__profile{
+        animation: infinite glowAsnimation 2s;
     }
 }

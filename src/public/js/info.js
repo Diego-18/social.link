@@ -9,7 +9,9 @@ new Vue ({
             separator: '|',
             company_name: '',
             photo: 'src/public/img/profile.jpeg',
-            profession: '💻 Ingeniero en Informática | 💻 Desarrollador Web Fullstack | 💼 Analista Digital',
+            profession: `💻 Ingeniero en Informática |
+                         💻 Desarrollador Web Fullstack | 
+                         💼 Analista Digital`,
             logo: 'src/public/img/logo.svg'
         },
         social: [
@@ -40,7 +42,7 @@ new Vue ({
             {
                 name: 'Github',
                 link: 'https://github.com/Diego-18', 
-                description: 'Lograras acceder a mis proyectos terminados y en los que me encuentro desarrollando en el área de sistemas.',
+                description: 'Lograrás acceder a mis proyectos terminados y en los que me encuentro desarrollando en el área de sistemas.',
                 icon: 'fa fa-github-square', 
                 color: 'background:#000;',
                 show_description: false
@@ -48,7 +50,7 @@ new Vue ({
             {
                 name: 'Gitlab',
                 link: 'https://gitlab.com/Diego-18', 
-                description: 'Lograras acceder a mis proyectos terminados y en los que me encuentro desarrollando en el área de sistemas.',
+                description: 'Lograrás acceder a mis proyectos terminados y en los que me encuentro desarrollando en el área de sistemas.',
                 icon: 'fa fa-gitlab', 
                 color: 'background: #FC6D27;',
                 show_description: false
@@ -56,7 +58,7 @@ new Vue ({
             {
                 name: 'Codepen',
                 link: 'https://codepen.io/diego-18', 
-                description: 'Lograras acceder a mis proyectos terminados y en los que me encuentro desarrollando en el área de sistemas.',
+                description: 'Lograrás acceder a mis proyectos terminados y en los que me encuentro desarrollando en el área de sistemas.',
                 icon: 'fa fa-codepen', 
                 color: 'background:#000;',
                 show_description: false
@@ -112,7 +114,7 @@ new Vue ({
             {
                 name: 'Hackerrank',
                 link: 'https://www.hackerrank.com/ingdiegochavez18', 
-                description: 'En este espacio veras parte de mi lado competitivo, autodidacta en el área de la programación.',
+                description: 'En este espacio verás parte de mi lado competitivo, autodidacta en el área de la programación.',
                 icon: 'fab fa-hackerrank', 
                 color: 'background: #008f39;',
                 show_description: false
@@ -120,7 +122,7 @@ new Vue ({
             {
                 name: 'Codechef',
                 link: 'https://www.codechef.com/users/djchavez', 
-                description: 'En este espacio veras parte de mi lado competitivo, autodidacta en el área de la programación.',
+                description: 'En este espacio verás parte de mi lado competitivo, autodidacta en el área de la programación.',
                 icon: 'fas fa-code', 
                 color: 'background: #804000;',
                 show_description: false
