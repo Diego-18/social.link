@@ -108,6 +108,13 @@ a{
     -o-animation: infinite glowAsnimation 2s;
 }
 
+.code{
+    font-size: 2rem;
+    text-align: center;
+    z-index: 1;
+    display: block;
+}
+
 @keyframes glowAsnimation {
     0%,100%{
         box-shadow: 0px 0px 20px #fff;
