@@ -25,7 +25,7 @@ new Vue ({
             },
             {
                 name: 'Blog Personal',
-                link: 'https://diegochavez18.medium.com/', 
+                link: 'https://diegochavez-dc.medium.com', 
                 description: 'En este espacio genero contenido de valor dando mi opinión en base a mi experiencia acerca de temas de tecnología y marketing digital.',
                 icon: 'fa fa-font', 
                 color: 'background:#007BB5;',
