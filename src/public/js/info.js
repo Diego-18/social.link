@@ -33,7 +33,7 @@ new Vue ({
             },
             {
                 name: 'LinkedIn',
-                link: 'https://www.linkedin.com/in/diego-jose-chavez-chirinos-9a7034a6/', 
+                link: 'https://www.linkedin.com/in/diego-jose-chavez-chirinos/', 
                 description: 'En este espacio podrás acceder a mi perfil profesional.',
                 icon: 'fa fa-linkedin', 
                 color: 'background: #0e76a8;',
