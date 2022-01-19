@@ -1,8 +1,3 @@
-body{
-    background: #1f3438;
-    color: #fff;
-}
-
 .img__profile{
     background-color: #fff;
     border: solid 5px #007BB5;
@@ -14,12 +9,13 @@ body{
 }
 
 .link__title:hover,
-.link__title:hover .link__name{
+.link__title:hover .link__name,
+.content__info, .last__name{
     color: #fff;
-    background: #007BB5;
 }
 
-#link__icon{
+#link__icon, .link__title:hover,
+.link__title:hover .link__name{
     background: #007BB5;
 }
 
@@ -29,11 +25,6 @@ body{
 
 .link__title{
     background: #fff;
-}
-
-.link__title a, .last__name,
-.link__name{
-    color: #007BB5;
 }
 
 .code{
