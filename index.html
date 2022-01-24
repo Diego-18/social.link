@@ -24,11 +24,12 @@
 
             <div class="row pt-3">
                 <div class="col-xs-12 col-sm-12 col-ml-4 col-lg-4 cstm__info">
-                    <div class="card cstm__card m-5 p-5">
+                    <div class="card cstm__card m-5 p-4">
                         <img :src="info.photo" alt="photo" class="img__profile">
-                        <div class="content__title p-4">
+                        <div class="content__title pt-4">
                             <p class=" content__info gfont"> {{info.name}} {{info.separator}} <span class="last__name">{{info.last_name}}</span></p>
-                            <span class="content__profession"> {{info.profession}}</span>
+                            <p class="content__profession"> {{info.profession_description1}}</p>
+                            <p class="content__profession"> {{info.profession_description2}}</p>
                         </div>
                     </div>
                 </div>
