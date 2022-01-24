@@ -120,7 +120,7 @@ new Vue ({
             },
             {
                 name: 'Youtube',
-                link: 'https://www.codechef.com/users/djchavez', 
+                link: 'https://www.youtube.com/channel/UCmEibejCVRl39zJyjsWlXdA', 
                 description: 'En este espacio verás aportes, ejemplos, tutoriales, contenido relacionados a la tecnología y como ser mejor programador.',
                 icon: 'fab fa-youtube', 
                 color: 'background:red; color: #fff; text-shadow: 0px 0px 10px rgba(0,0,0,0.5);',
