@@ -183,14 +183,18 @@ a {
 
 	#link__icon {
 		width: 10%;
-		padding: 1.5rem;
 	}
 
 	.link__title {
 		width: 50%;
 		border: #fff;
 		background: #fff;
-		padding: 1.5rem;
+	}
+
+	#link__icon,
+	.link__title {
+		padding: 1% !important;
+		width: 50%;
 	}
 
 	.link__name {
